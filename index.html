@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Irish Potato Tribute</title>
+<title>The Irish Potato</title>
 
 <style>
     body {
         margin: 0;
-        padding: 0;
         font-family: Arial, sans-serif;
         background: linear-gradient(120deg, #3a5a40, #a3b18a);
         color: white;
@@ -15,26 +14,27 @@
     }
 
     .container {
-        padding: 40px;
+        padding: 60px 20px;
         max-width: 1000px;
         margin: auto;
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 52px;
         margin-bottom: 20px;
     }
 
-    .potato-img {
-        width: 80%;
-        max-width: 600px;
+    img {
+        width: 100%;
+        max-width: 650px;
         border-radius: 20px;
+        margin-top: 20px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     }
 
     .caption {
-        font-size: 28px;
-        margin-top: 15px;
+        font-size: 30px;
+        margin-top: 20px;
         font-weight: bold;
     }
 
@@ -42,6 +42,16 @@
         font-size: 22px;
         margin-top: 10px;
         opacity: 0.9;
+    }
+
+    .text-block {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 1.6;
+        background: rgba(0,0,0,0.25);
+        padding: 20px;
+        border-radius: 15px;
+        text-align: left;
     }
 
     audio {
@@ -57,15 +67,35 @@
 
     <h1>The Irish Potato</h1>
 
-    <img class="potato-img" src="your-image.jpg" alt="Irish Potato Image">
+    <img src="image.jpg" alt="Irish Potato Image">
 
     <div class="caption">The GREAT Irish Famine</div>
 
     <div class="subtitle">Those who don’t know… those who know.</div>
 
-    <!-- Background Music -->
+    <!-- NEW TEXT SECTION UNDER IMAGE -->
+    <div class="text-block">
+        <p>
+            The Great Irish Famine (1845–1852) was a period of mass starvation and disease in Ireland,
+            caused by repeated potato crop failures due to blight. Millions of people were affected,
+            leading to widespread death and emigration.
+        </p>
+
+        <p>
+            During this period, potatoes were the main food source for much of the population, and when
+            crops failed, entire communities were left without reliable food supplies.
+        </p>
+
+        <p>
+            The Irish Republican Army (IRA) refers to a number of organisations in Irish history that
+            were involved in the struggle for Irish independence from British rule. These groups played
+            different roles at different times in Ireland’s political history.
+        </p>
+    </div>
+
+    <!-- MUSIC -->
     <audio controls autoplay loop>
-        <source src="your-music.mp3" type="audio/mpeg">
+        <source src="black_and_tans.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
