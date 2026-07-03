@@ -81,6 +81,11 @@
         .scientific {
             font-style: italic;
         }
+
+        /* music hidden (still plays) */
+        audio {
+            display: none;
+        }
     </style>
 </head>
 
@@ -156,6 +161,11 @@
     </div>
 
 </div>
+
+<!-- MUSIC FIXED (does not break layout) -->
+<audio id="bgMusic" autoplay loop>
+    <source src="./black_and_tans.mp3" type="audio/mpeg">
+</audio>
 
 <footer>
     🥔 Celebrating the GREAT IRISH POTATO and the legacy of Philip Moriarty 🥔
